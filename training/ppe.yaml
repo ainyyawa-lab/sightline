@@ -1,0 +1,10 @@
+# Dataset config for PPE fine-tuning. Download a labelled PPE dataset in YOLO format
+# (e.g. from Roboflow Universe, "construction site safety") and point `path` at it.
+path: ./datasets/ppe
+train: images/train
+val: images/val
+names:
+  0: helmet
+  1: vest
+  2: person
+  3: no_helmet
